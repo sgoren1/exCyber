@@ -61,7 +61,7 @@ class VehicleFactory():
             raise ValueError("Type inconnu")
 
 def main():
-
+    nom = input("C'est quoi ton nom ? : ")
     car = VehicleFactory.createVehicle("car")
     car.rouler()
     return
