@@ -1,0 +1,17 @@
+# Ignorer les fichiers de log
+*.log
+
+# Ignorer les fichiers temporaires
+*.tmp
+
+# Ignorer les dossiers de build
+/build/
+bin/
+
+# Ignorer les fichiers de configuration IDE
+.idea/
+.vscode/
+
+# Ignorer les fichiers générés par les systèmes d'exploitation
+.DS_Store    # Mac
+Thumbs.db    # Windows
