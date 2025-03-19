@@ -63,7 +63,6 @@ class VehicleFactory():
 
 def main():
     logging.info("La fonction main a démarré.")
-    nom = input("C'est quoi ton nom ? : ")
     car = VehicleFactory.createVehicle("car")
     car.rouler()
     return
