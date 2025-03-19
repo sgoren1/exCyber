@@ -1,4 +1,5 @@
 from abc import ABC, abstractmethod
+import logging
 
 # POO : Encapsulation (private/public), Abstraction (simple depuis l'extérieur), Héritage (Pour pas tout retaper et polymorphisme)
 # Polymorphisme (même méthode, comportement différent selon l'objet)
@@ -61,7 +62,7 @@ class VehicleFactory():
             raise ValueError("Type inconnu")
 
 def main():
-
+    logging.info("La fonction main a démarré.")
     car = VehicleFactory.createVehicle("car")
     car.rouler()
     return
