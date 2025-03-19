@@ -61,6 +61,9 @@ class VehicleFactory():
         else:
             raise ValueError("Type inconnu")
 
+def add(a,b):
+    return a+ b
+
 def main():
     logging.info("La fonction main a démarré.")
     car = VehicleFactory.createVehicle("car")
